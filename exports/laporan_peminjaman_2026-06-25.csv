@@ -1,0 +1,7 @@
+﻿loan_code,borrower_name,nim,items_list,loan_date,due_date,return_date,status
+LN-20260625-002,Rayan,111111,Laptop Acer Aspire,2026-06-25,2026-06-27,,dipinjam
+LN-20260625-001,Mahmud,12345,Catu Daya DC 30V,2026-06-25,2026-05-25,,dipinjam
+LN-20260624-005,Budi Santoso,2021001,"Oscilloscope Digital, Catu Daya DC 30V, Gelas Ukur",2026-06-24,2026-07-01,2026-06-24,dikembalikan
+LN-20260624-003,Dewi Lestari,2021004,"Pipette Controller, Gelas Ukur, Erlenmeyer Flask",2026-06-25,2026-07-01,,dipinjam
+LN-20260624-002,Rizky Pratama,2021005,Mikroskop Binokuler,2026-06-24,2026-07-01,2026-06-24,dikembalikan
+LN-20260624-001,Ahmad Fauzi,2021003,Beaker Glass 500ml,2026-06-24,2026-07-01,,dipinjam

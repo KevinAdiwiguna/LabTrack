@@ -1,0 +1,11 @@
+﻿item_code,name,category_name,stock,condition,location,description
+ITM-004,Beaker Glass 500ml,Kimia,19,Baik,Rak C1,Gelas beker borosilikat
+ITM-008,Catu Daya DC 30V,Elektronik,5,Rusak Ringan,Rak A4,Output 0-30V 5A
+ITM-010,Erlenmeyer Flask,Kimia,11,Baik,Rak C1,Labu untuk reaksi kimia dan pengocokan larutan
+ITM-009,Gelas Ukur,Kimia,9,Baik,Rak C2,
+ITM-006,Jangka Sorong,Pengukuran,12,Baik,Rak D1,Presisi 0.01mm
+ITM-007,Laptop Acer Aspire,Elektronik,2,Baik,Rak A3,Core i5 RAM 8GB
+ITM-003,Mikroskop Binokuler,Optik,2,Baik,Rak B1,Pembesaran hingga 1000x
+ITM-002,Multimeter Digital,Elektronik,8,Baik,Rak A2,Pengukur tegangan arus
+ITM-001,Oscilloscope Digital,Elektronik,5,Baik,Rak A1,Pengukur sinyal listrik
+ITM-005,Pipette Controller,Kimia,9,Baik,Rak C2,Pipet otomatis elektrik
