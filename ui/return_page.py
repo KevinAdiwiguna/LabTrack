@@ -10,10 +10,10 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QDate, QTimer
 from PySide6.QtGui import QColor
 
-from windows.base_page import BasePage
+from ui.base_page import BasePage
 from controllers import AuthController, LoanController
-from models import Loan
-import utils
+from models.models import Loan
+import utils.utils as utils
 
 
 class ReturnDialog(QDialog):

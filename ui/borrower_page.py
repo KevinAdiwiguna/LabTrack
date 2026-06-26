@@ -9,7 +9,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QColor
 
-from windows.base_page import BasePage
+from ui.base_page import BasePage
 from controllers import AuthController, BorrowerController
 
 

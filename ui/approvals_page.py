@@ -10,10 +10,10 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QColor, QFont
 
-from windows.base_page import BasePage
+from ui.base_page import BasePage
 from controllers import AuthController, LoanRequestController
-from models import LoanRequest
-import utils
+from models.models import LoanRequest
+import utils.utils as utils
 
 
 class ReviewDialog(QDialog):

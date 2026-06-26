@@ -4,7 +4,7 @@ models.py - Model/DTO untuk entitas LabTrack v2.0
 
 from dataclasses import dataclass
 from datetime import datetime
-import database as db
+import database.database as db
 
 
 # ── User ─────────────────────────────────────────────────────────

@@ -1,6 +1,6 @@
-from models import User, Category, Item, Borrower, Loan, LoanRequest, ActivityLog
-import database as db
-import utils
+from models.models import User, Category, Item, Borrower, Loan, LoanRequest, ActivityLog
+import database.database as db
+import utils.utils as utils
 
 
 # ── Auth Controller ───────────────────────────────────────────────

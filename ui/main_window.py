@@ -7,7 +7,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QFont
 
-import styles
+import assets.styles as styles
 from controllers import AuthController, LoanRequestController
 
 
@@ -168,18 +168,18 @@ class MainWindow(QMainWindow):
         return self.pages[key]
 
     def _create_page(self, key):
-        from windows.dashboard_page  import DashboardPage
-        from windows.inventory_page  import InventoryPage
-        from windows.category_page   import CategoryPage
-        from windows.borrower_page   import BorrowerPage
-        from windows.loan_page       import LoanPage
-        from windows.return_page     import ReturnPage
-        from windows.report_page     import ReportPage
-        from windows.activity_page   import ActivityPage
-        from windows.predict_page    import PredictPage
-        from windows.approvals_page  import ApprovalsPage
-        from windows.user_mgmt_page  import UserMgmtPage
-        from windows.viewer_pages    import CatalogPage, MyRequestPage, MyLoansPage, MyProfilePage
+        from ui.dashboard_page  import DashboardPage
+        from ui.inventory_page  import InventoryPage
+        from ui.category_page   import CategoryPage
+        from ui.borrower_page   import BorrowerPage
+        from ui.loan_page       import LoanPage
+        from ui.return_page     import ReturnPage
+        from ui.report_page     import ReportPage
+        from ui.activity_page   import ActivityPage
+        from ui.predict_page    import PredictPage
+        from ui.approvals_page  import ApprovalsPage
+        from ui.user_mgmt_page  import UserMgmtPage
+        from ui.viewer_pages    import CatalogPage, MyRequestPage, MyLoansPage, MyProfilePage
 
         mapping = {
             "dashboard":   DashboardPage,
@@ -239,7 +239,7 @@ class MainWindow(QMainWindow):
         if reply == QMessageBox.Yes:
             self._badge_timer.stop()
             AuthController.logout()
-            from windows.login_window import LoginWindow
+            from ui.login_window import LoginWindow
             self.login_window = LoginWindow()
             self.login_window.show()
             self.close()

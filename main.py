@@ -6,8 +6,8 @@ from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
 
-import database
-from windows.login_window import LoginWindow
+import database.database as database
+from ui.login_window import LoginWindow
 
 
 def main():

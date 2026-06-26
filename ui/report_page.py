@@ -10,7 +10,7 @@ from PySide6.QtCore import Qt, QDate
 from PySide6.QtGui import QFont
 import os, subprocess, sys
 
-from windows.base_page import BasePage
+from ui.base_page import BasePage
 from controllers import AuthController, ReportController
 
 

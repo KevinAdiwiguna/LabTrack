@@ -15,11 +15,11 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QDate, QTimer
 from PySide6.QtGui import QColor, QFont
 
-from windows.base_page import BasePage
+from ui.base_page import BasePage
 from controllers import AuthController, LoanRequestController, CategoryController, BorrowerController
-from models import Item, Borrower, Loan, LoanRequest
-import database as db
-import utils
+from models.models import Item, Borrower, Loan, LoanRequest
+import database.database as db
+import utils.utils as utils
 
 
 # ── Helper: cek apakah viewer sudah punya profil peminjam ────────

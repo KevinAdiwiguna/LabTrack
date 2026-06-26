@@ -9,9 +9,9 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QDate, QTimer
 from PySide6.QtGui import QColor, QFont
 
-from windows.base_page import BasePage
-from models import ActivityLog
-import database as db
+from ui.base_page import BasePage
+from models.models import ActivityLog
+import database.database as db
 
 
 ACTIVITY_ICONS = {

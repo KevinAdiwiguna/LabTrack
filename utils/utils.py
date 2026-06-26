@@ -130,7 +130,7 @@ def predict_next_month_demand():
     try:
         import numpy as np
         from sklearn.linear_model import LinearRegression
-        import database as db
+        import database.database as db
 
         rows = db.fetchall("""
             SELECT i.name as item_name,

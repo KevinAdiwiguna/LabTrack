@@ -7,7 +7,7 @@ from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QColor, QFont
 
 from controllers import AuthController
-import styles
+import assets.styles as styles
 
 
 class LoginWindow(QWidget):
@@ -476,7 +476,7 @@ class LoginWindow(QWidget):
         self.lbl_reg_error.show()
 
     def _open_main(self, user):
-        from windows.main_window import MainWindow
+        from ui.main_window import MainWindow
         self.main_window = MainWindow(user)
         self.main_window.show()
         self.close()

@@ -8,7 +8,7 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 
-from windows.base_page import BasePage
+from ui.base_page import BasePage
 from controllers import AuthController, CategoryController
 
 
